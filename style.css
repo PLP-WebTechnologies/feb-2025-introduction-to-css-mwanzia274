@@ -1,0 +1,51 @@
+/* External CSS file - style.css */
+
+/* Selector 1: Universal selector to reset some basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Selector 2: ID Selector for styling the header */
+header {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Selector 3: Class Selector for the intro section */
+.intro {
+    font-family: 'Arial', sans-serif; /* Applying a font */
+    margin: 20px;
+    padding: 15px;
+    background-color: #f4f4f4; /* Light gray background */
+    border: 2px solid #ddd; /* Border with light gray color */
+}
+
+/* Styling the content section by ID */
+#content {
+    font-family: 'Georgia', serif; /* Using a different font */
+    margin: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc; /* Light border */
+}
+
+/* Image styling using the class selector */
+.image-style {
+    width: 100%; /* Make image responsive */
+    max-width: 300px; /* Max width of the image */
+    display: block;
+    margin: 20px auto; /* Center the image */
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
